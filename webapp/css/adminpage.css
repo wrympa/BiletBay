@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+    background: hsla(355, 100%, 20%, 1);
+    background: linear-gradient(135deg, hsla(355, 100%, 20%, 1) 0%, hsla(0, 0%, 3%, 1) 100%);
+    background: -moz-linear-gradient(135deg, hsla(355, 100%, 20%, 1) 0%, hsla(0, 0%, 3%, 1) 100%);
+    background: -webkit-linear-gradient(135deg, hsla(355, 100%, 20%, 1) 0%, hsla(0, 0%, 3%, 1) 100%);
+    font-family: oswald;
+    color: white;
+}
+.top{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+*{
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: darkred;
+    border-radius: 10px;
+    color: white;
+}
+.columnflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.filler{
+    height: 5vh;
+    width: 37%;
+}
+select{
+    background-color: hsla(0, 100%, 50%, 1);
+    border: maroon solid 3px;
+    border-radius: 10px;
+    color: black;
+}
+textarea{
+    background-color: hsla(0, 100%, 50%, 1);
+    background: linear-gradient(45deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 0%, 0%, 1) 84%);
+    background: -moz-linear-gradient(45deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 0%, 0%, 1) 84%);
+    background: -webkit-linear-gradient(45deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 0%, 0%, 1) 84%);
+    border: maroon solid 3px;
+    border-radius: 10px;
+    color: white;
+}
+input{
+    background-color: hsla(0, 100%, 50%, 1);
+    background: linear-gradient(45deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 0%, 0%, 1) 84%);
+    background: -moz-linear-gradient(45deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 0%, 0%, 1) 84%);
+    background: -webkit-linear-gradient(45deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 0%, 0%, 1) 84%);
+    border: maroon solid 3px;
+    border-radius: 10px;
+    color: white;
+}
+.torep{
+    color: white;
+    width: 80%;
+    background-color: hsla(0, 100%, 50%, 1);
+    background: linear-gradient(45deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 0%, 0%, 1) 84%);
+    background: -moz-linear-gradient(45deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 0%, 0%, 1) 84%);
+    background: -webkit-linear-gradient(45deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 0%, 0%, 1) 84%);
+    border: black solid 3px;
+    border-radius: 10px;
+}
+.repcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: darkred;
+    border-radius: 10px;
+    color: white;
+}
+@font-face
+{
+    font-family: oswald;
+    src: url(/fonts/oswald.ttf);
+}

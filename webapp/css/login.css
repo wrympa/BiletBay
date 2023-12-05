@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: oswald;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: hsla(196, 84%, 63%, 1);
+    background: linear-gradient(270deg, hsla(196, 84%, 63%, 1) 20%, hsla(220, 78%, 29%, 1) 80%);
+    background: -moz-linear-gradient(270deg, hsla(196, 84%, 63%, 1) 20%, hsla(220, 78%, 29%, 1) 80%);
+    background: -webkit-linear-gradient(270deg, hsla(196, 84%, 63%, 1) 20%, hsla(220, 78%, 29%, 1) 80%);
+    background-attachment: fixed;
+    color: white;
+}
+*{
+    scroll-behavior: smooth;
+}
+.whole{
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.titles{
+    display: flex;
+    width: 20%;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 10px;
+    background-color: hsla(220, 78%, 29%, 1);
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    color: white;
+}
+.inputs{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ror{
+    color: darkred;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 1%;
+}
+input{
+    background-color: deepskyblue;
+    border: lightblue solid 3px;
+    border-radius: 10px;
+    color: white;
+}
+@font-face
+{
+    font-family: oswald;
+    src: url(/fonts/oswald.ttf);
+}
